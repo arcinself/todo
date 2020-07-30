@@ -1,0 +1,95 @@
+body {
+  background: url("./background.jpeg");
+}
+.container {
+  position:absolute;
+  height: 28pc;
+  width: 25pc;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 30px;
+}
+.addTxt {
+  position: absolute;
+  height: 5px;
+  width: 60%;
+  margin: auto;
+  top: 25px;
+  right: 0;
+  left: 0;
+  outline: none;
+  padding: 20px;
+  border: none;
+  padding-right: 70px;
+}
+.addBtn {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  background: transparent;
+  border: none;
+  outline: none;
+  top: 15px;
+  right: 35px;
+  cursor: pointer;
+}
+.addBtn img {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  top: 25px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.list {
+  position: absolute;
+  height: 75%;
+  width: 100%;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-x : none;
+  overflow-y :scroll;
+}
+.list::-webkit-scrollbar{
+	-webkit-appearance: none;
+	appearance: none;
+}
+.element {
+  position: relative;
+  width: 50%;
+  text-align: left;
+  transition: 0.2s;
+  padding: 10px;
+  background: #fff;
+  cursor: pointer;
+  padding-right: 100px;
+  word-wrap: break-word;
+}
+.element .tick {
+  position: absolute;
+  margin: auto;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  right: 50px;
+}
+.element .dustbin {
+  position: absolute;
+  margin: auto;
+  height: 30px;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+}
+.element:hover {
+  transform: scale(1.1);
+}
